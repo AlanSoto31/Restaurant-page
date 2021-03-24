@@ -1,3 +1,79 @@
-.hello{
-  background: yellowgreen;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
+
+@font-face {
+  font-family: "marguerite";
+  src: url("marguerite.ttf");
+}
+
+body {
+  background: url("./images/carbon2.jpg") no-repeat center center fixed;
+  background-size: cover;
+ }
+
+nav {
+  position: sticky;
+  background: rgba(5, 5, 5, 0.85);
+  text-align: end;
+  padding: 20px;
+}
+
+.navbar-links {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.welcome-con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background: black;
+  border-radius: 10px;
+}
+
+.title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.title {
+  color: #edc017;
+  font-family: "marguerite";
+  font-size: 80px;
+  font-weight:600;
+}
+
+.title span {
+  padding: 0 15px;
+}
+
+.sub-title {
+  color: #edc017;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  text-align: center;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
