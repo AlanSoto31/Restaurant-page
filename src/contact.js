@@ -1,6 +1,7 @@
+import showNav from "./navbar";
+
 const showContact = () => {
   const contact = document.getElementById('content');
-  contact.innerHTML = '';
   contact.innerHTML = `
   <div class="welcome-con">
     <div class="title-con">

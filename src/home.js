@@ -1,6 +1,7 @@
-const showHome = (() => {
+import showNav from "./navbar";
+
+let showHome = () => {
   const home = document.getElementById('content');
-  home.innerHTML = '';
   home.innerHTML = `
   <div class="welcome-con">
     <div class="title-con">
@@ -10,6 +11,8 @@ const showHome = (() => {
     <p class="welcome-text">Tradicion desde 1950</p>
   </div>
   `;
-})();
+};
+
+showHome();
 
 export default showHome;

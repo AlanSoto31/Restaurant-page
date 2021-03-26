@@ -1,14 +1,11 @@
 import styles from "./styles.css";
-import home from "./home.js";
+import navbar from "./navbar";
 import showHome from "./home";
 import showMenu from "./menu";
 import showContact from "./contact";
 
-const homeTab = document.querySelector('.home-tab')
-homeTab.addEventListener('click', showHome);
+document.querySelector('.home-tab').addEventListener('click', showHome);
 
-const menuTab = document.querySelector('.menu-tab')
-menuTab.addEventListener('click', showMenu);
+document.querySelector('.menu-tab').addEventListener('click', showMenu);
 
-const contactTab = document.querySelector('.contact-tab')
-contactTab.addEventListener('click', showContact);
+document.querySelector('.contact-tab').addEventListener('click', showContact);

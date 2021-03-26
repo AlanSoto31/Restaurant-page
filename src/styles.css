@@ -16,11 +16,12 @@
 body {
   background: url("./images/carbon.jpg") no-repeat center center fixed;
   background-size: cover;
-  background: black;
  }
 
 nav {
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
   background: rgba(5, 5, 5, 0.7);
   text-align: end;
   padding: 20px;
@@ -39,6 +40,7 @@ nav {
   transform: translate(-50%, -50%);
   width: 50%;
   border-radius: 10px;
+  background: black;
 }
 
 .title-con {
@@ -80,8 +82,10 @@ nav {
 
 
 .menu-con {
+  margin-top: 67px;
   display: flex;
   justify-content: center;
+  background: black;
 }
 
 .title-menu-con {

@@ -1,6 +1,7 @@
+import showNav from "./navbar";
+
 const showMenu = () => {
   const menu = document.getElementById('content');
-  menu.innerHTML = '';
   menu.innerHTML = `
   <section class="menu-con">
       <div class="title-menu-con">
