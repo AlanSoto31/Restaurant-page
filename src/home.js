@@ -1,11 +1,7 @@
-const content = document.getElementById('content');
-content.innerHTML = `
-  <nav>
-    <a href="#" class="navbar-links">Home</a>
-    <a href="#" class="navbar-links">Menu</a>
-    <a href="#" class="navbar-links">Contact</a>
-  </nav>
-
+const showHome = (() => {
+  const home = document.getElementById('content');
+  home.innerHTML = '';
+  home.innerHTML = `
   <div class="welcome-con">
     <div class="title-con">
       <h1 class="title">Esta <span></span> Carbon</h1>
@@ -14,3 +10,6 @@ content.innerHTML = `
     <p class="welcome-text">Tradicion desde 1950</p>
   </div>
   `;
+})();
+
+export default showHome;

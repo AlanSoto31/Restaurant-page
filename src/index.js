@@ -1,7 +1,14 @@
 import styles from "./styles.css";
 import home from "./home.js";
-import printSomething from "./test";
+import showHome from "./home";
+import showMenu from "./menu";
+import showContact from "./contact";
 
-const helloBtn = document.querySelector('.hello');
+const homeTab = document.querySelector('.home-tab')
+homeTab.addEventListener('click', showHome);
 
-helloBtn.addEventListener('click', printSomething);
+const menuTab = document.querySelector('.menu-tab')
+menuTab.addEventListener('click', showMenu);
+
+const contactTab = document.querySelector('.contact-tab')
+contactTab.addEventListener('click', showContact);

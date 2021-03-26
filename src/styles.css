@@ -14,8 +14,8 @@
 }
 
 body {
-  /*background: url("./images/carbon.jpg") no-repeat center center fixed;
-  background-size: cover;*/
+  background: url("./images/carbon.jpg") no-repeat center center fixed;
+  background-size: cover;
   background: black;
  }
 
@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar-links {
-  color: whitesmoke;
+  color:  white;
   font-size: 20px;
   padding: 30px;
 }
@@ -37,7 +37,7 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 50%;
   border-radius: 10px;
 }
 
