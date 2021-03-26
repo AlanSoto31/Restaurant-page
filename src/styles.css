@@ -27,10 +27,11 @@ nav {
   padding: 20px;
 }
 
-.navbar-links {
+.tabs {
   color:  white;
   font-size: 20px;
-  padding: 30px;
+  padding: 20px 50px;
+  font-weight: 400;
 }
 
 .welcome-con {

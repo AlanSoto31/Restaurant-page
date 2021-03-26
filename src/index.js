@@ -4,8 +4,8 @@ import showHome from "./home";
 import showMenu from "./menu";
 import showContact from "./contact";
 
-document.querySelector('.home-tab').addEventListener('click', showHome);
+document.querySelector('#home').addEventListener('click', showHome);
 
-document.querySelector('.menu-tab').addEventListener('click', showMenu);
+document.querySelector('#menu').addEventListener('click', showMenu);
 
-document.querySelector('.contact-tab').addEventListener('click', showContact);
+document.querySelector('#contact').addEventListener('click', showContact);

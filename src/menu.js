@@ -1,6 +1,16 @@
-import showNav from "./navbar";
+
 
 const showMenu = () => {
+
+  let tabs = document.querySelectorAll('.tabs');
+  tabs.forEach((item) => {
+    item.style.background="";
+    item.style.color=""
+  })
+  let menuTab = document.querySelector('#menu');
+  menuTab.style.background = "#edc017";
+  menuTab.style.color = "black";
+
   const menu = document.getElementById('content');
   menu.innerHTML = `
   <section class="menu-con">

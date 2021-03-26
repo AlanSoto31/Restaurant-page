@@ -1,6 +1,16 @@
-import showNav from "./navbar";
+
 
 const showContact = () => {
+  
+  let tabs = document.querySelectorAll('.tabs');
+  tabs.forEach((item) => {
+    item.style.background=""
+    item.style.color=""
+  })
+  let contactTab = document.querySelector('#contact');
+  contactTab.style.background = "#edc017";
+  contactTab.style.color = "black";
+
   const contact = document.getElementById('content');
   contact.innerHTML = `
   <div class="welcome-con">
