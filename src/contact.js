@@ -13,8 +13,8 @@ const showContact = () => {
   contact.innerHTML = `
   <div class="welcome-con">
     <div class="title-con">
-      <h1 class="title">Llamanos</h1>
-      <p class="sub-title">QUE SE ARME LA CARNITA ASADA</p>
+      <h1 class="title">Esta Carbon</h1>
+      <p class="sub-title">LLAMANOS AL 844-879-42-36</p>
     </div>
     <p class="welcome-text">Tradicion desde 1950</p>
   </div>

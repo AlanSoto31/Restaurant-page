@@ -13,7 +13,7 @@
   
 </p>
 
-![screenshot](./src/images/screenshot.png)
+![screenshot](./screenshot.png)
 
 <hr>
 
