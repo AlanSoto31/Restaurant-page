@@ -16,7 +16,7 @@
 body {
   background: url("./images/carbon.jpg") no-repeat center center fixed;
   background-size: cover;
- }
+}
 
 nav {
   position: fixed;
@@ -28,7 +28,7 @@ nav {
 }
 
 .tabs {
-  color:  white;
+  color: white;
   font-size: 20px;
   padding: 20px 50px;
   font-weight: 400;
@@ -54,9 +54,9 @@ nav {
 
 .title {
   color: #edc017;
-  font-family: "marguerite";
+  font-family: "marguerite", sans-serif;
   font-size: 80px;
-  font-weight:600;
+  font-weight: 600;
   letter-spacing: 10px;
   line-height: 100px;
 }
@@ -78,9 +78,6 @@ nav {
   font-size: 16px;
   font-weight: bold;
 }
-
-
-
 
 .menu-con {
   margin-top: 67px;
@@ -125,7 +122,7 @@ nav {
   padding: 0 20px 0 20px;
 }
 
-.card-details-con{
+.card-details-con {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,28 +131,28 @@ nav {
 }
 
 .card-img1 {
-  background: url("./images/ribeye-entero.jpg");  
- }
+  background: url("./images/ribeye-entero.jpg");
+}
 
- .card-img2 {
-  background: url("./images/salchichas.jpg");  
- }
+.card-img2 {
+  background: url("./images/salchichas.jpg");
+}
 
- .card-img3 {
-  background: url("./images/short-ribeye.jpg");  
- }
+.card-img3 {
+  background: url("./images/short-ribeye.jpg");
+}
 
- .card-img4 {
-  background: url("./images/alitas.jpg");  
- }
+.card-img4 {
+  background: url("./images/alitas.jpg");
+}
 
- .card-img5 {
-  background: url("./images/costillas-cordero.jpg");  
- }
+.card-img5 {
+  background: url("./images/costillas-cordero.jpg");
+}
 
- .card-img6 {
-  background: url("./images/brochetas.jpg");  
- }
+.card-img6 {
+  background: url("./images/brochetas.jpg");
+}
 
 .card-imgs {
   height: 250px;
@@ -164,43 +161,44 @@ nav {
   background-position: center;
 }
 
- .card-title {
-    font-size: 20px;
-    color: #edc017;
- }
+.card-title {
+  font-size: 20px;
+  color: #edc017;
+}
 
- .card-text {
-   font-size: 20px;
-   font-weight: bolder;
-   color: white;
- }
+.card-text {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
 
- .card-btn {
-   font-size: 14px;
-   color: white;
-   font-weight: bolder;
-   padding: 10px 20px;
-   border-radius: 1px 20px 1px;
-   background: #B91935;
- }
+.card-btn {
+  font-size: 14px;
+  color: white;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 1px 20px 1px;
+  background: #b91935;
+}
 
+@media (max-width: 768px) {
+  .d-none {
+    display: none;
+  }
 
- @media (max-width: 768px) {
-   .d-none {
-     display: none;
-   }
-   .title {
-     font-size: 60px;
-   }
-   .sub-title-menu-con {
+  .title {
+    font-size: 60px;
+  }
+
+  .sub-title-menu-con {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .title-menu-con {
     text-align: center;
     padding: 30px;
     width: 80%;
   }
-
- }
+}

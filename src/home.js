@@ -1,15 +1,13 @@
 
-
-let showHome = () => {
-  
-  let tabs = document.querySelectorAll('.tabs');
+const showHome = () => {
+  const tabs = document.querySelectorAll('.tabs');
   tabs.forEach((item) => {
-    item.style.background=""
-    item.style.color=""
-  })
-  let homeTab = document.querySelector('#home');
-  homeTab.style.background = "#edc017";
-  homeTab.style.color = "black";
+    item.style.background = '';
+    item.style.color = '';
+  });
+  const homeTab = document.querySelector('#home');
+  homeTab.style.background = '#edc017';
+  homeTab.style.color = 'black';
 
   const home = document.getElementById('content');
   home.innerHTML = `

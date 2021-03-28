@@ -1,8 +1,8 @@
-import styles from "./styles.css";
-import navbar from "./navbar";
-import showHome from "./home";
-import showMenu from "./menu";
-import showContact from "./contact";
+import './styles.css';
+import './navbar';
+import showHome from './home';
+import showMenu from './menu';
+import showContact from './contact';
 
 document.querySelector('#home').addEventListener('click', showHome);
 

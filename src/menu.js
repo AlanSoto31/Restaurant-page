@@ -1,15 +1,13 @@
 
-
 const showMenu = () => {
-
-  let tabs = document.querySelectorAll('.tabs');
+  const tabs = document.querySelectorAll('.tabs');
   tabs.forEach((item) => {
-    item.style.background="";
-    item.style.color=""
-  })
-  let menuTab = document.querySelector('#menu');
-  menuTab.style.background = "#edc017";
-  menuTab.style.color = "black";
+    item.style.background = '';
+    item.style.color = '';
+  });
+  const menuTab = document.querySelector('#menu');
+  menuTab.style.background = '#edc017';
+  menuTab.style.color = 'black';
 
   const menu = document.getElementById('content');
   menu.innerHTML = `
@@ -81,6 +79,6 @@ const showMenu = () => {
       </div>
     </div>
     `;
-  }
+};
 
 export default showMenu;

@@ -1,15 +1,13 @@
 
-
 const showContact = () => {
-  
-  let tabs = document.querySelectorAll('.tabs');
+  const tabs = document.querySelectorAll('.tabs');
   tabs.forEach((item) => {
-    item.style.background=""
-    item.style.color=""
-  })
-  let contactTab = document.querySelector('#contact');
-  contactTab.style.background = "#edc017";
-  contactTab.style.color = "black";
+    item.style.background = '';
+    item.style.color = '';
+  });
+  const contactTab = document.querySelector('#contact');
+  contactTab.style.background = '#edc017';
+  contactTab.style.color = 'black';
 
   const contact = document.getElementById('content');
   contact.innerHTML = `
@@ -21,6 +19,6 @@ const showContact = () => {
     <p class="welcome-text">Tradicion desde 1950</p>
   </div>
   `;
-}
+};
 
 export default showContact;
