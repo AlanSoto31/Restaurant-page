@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-family: "marguerite";
+  src: url("/dist/fonts/marguerite.ttf");
+}
+
+body {
+  background: url("/dist/images/carbon.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(5, 5, 5, 0.7);
+  text-align: end;
+  padding: 20px;
+}
+
+.tabs {
+  color: white;
+  font-size: 20px;
+  padding: 20px 50px;
+  font-weight: 400;
+}
+
+.welcome-con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border-radius: 10px;
+  background: black;
+}
+
+.title-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.title {
+  color: #edc017;
+  font-family: "marguerite", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  line-height: 100px;
+}
+
+.title span {
+  padding: 0 15px;
+}
+
+.sub-title {
+  color: #edc017;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  text-align: center;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu-con {
+  margin-top: 67px;
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+
+.title-menu-con {
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+}
+
+.sub-title-menu-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-title-menu {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 20px;
+}
+
+.roll-img {
+  height: 50px;
+  width: 150px;
+  background: url("/dist/images/roll.png");
+  background-size: cover;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: repeat(2, 380px);
+  grid-auto-flow: row;
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+}
+
+.card-details-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 130px;
+}
+
+.card-img1 {
+  background: url("/dist/images/ribeye-entero.jpg");
+}
+
+.card-img2 {
+  background: url("/dist/images/salchichas.jpg");
+}
+
+.card-img3 {
+  background: url("/dist/images/short-ribeye.jpg");
+}
+
+.card-img4 {
+  background: url("/dist/images/alitas.jpg");
+}
+
+.card-img5 {
+  background: url("/dist/images/costillas-cordero.jpg");
+}
+
+.card-img6 {
+  background: url("/dist/images/brochetas.jpg");
+}
+
+.card-imgs {
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #edc017;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+.card-btn {
+  font-size: 14px;
+  color: white;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 1px 20px 1px;
+  background: #b91935;
+}
+
+@media (max-width: 768px) {
+  .d-none {
+    display: none;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .sub-title-menu-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-menu-con {
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+  }
+}
