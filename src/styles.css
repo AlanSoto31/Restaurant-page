@@ -10,11 +10,11 @@
 
 @font-face {
   font-family: "marguerite";
-  src: url("marguerite.ttf");
+  src: url("./dist/fonts/marguerite.ttf");
 }
 
 body {
-  background: url("./images/carbon.jpg") no-repeat center center fixed;
+  background: url("./dist/images/carbon.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -108,7 +108,7 @@ nav {
 .roll-img {
   height: 50px;
   width: 150px;
-  background: url("./images/roll.png");
+  background: url("./dist/images/roll.png");
   background-size: cover;
 }
 
@@ -131,27 +131,27 @@ nav {
 }
 
 .card-img1 {
-  background: url("./images/ribeye-entero.jpg");
+  background: url("./dist/images/ribeye-entero.jpg");
 }
 
 .card-img2 {
-  background: url("./images/salchichas.jpg");
+  background: url("./dist/images/salchichas.jpg");
 }
 
 .card-img3 {
-  background: url("./images/short-ribeye.jpg");
+  background: url("./dist/images/short-ribeye.jpg");
 }
 
 .card-img4 {
-  background: url("./images/alitas.jpg");
+  background: url("./dist/images/alitas.jpg");
 }
 
 .card-img5 {
-  background: url("./images/costillas-cordero.jpg");
+  background: url("./dist/images/costillas-cordero.jpg");
 }
 
 .card-img6 {
-  background: url("./images/brochetas.jpg");
+  background: url("./dist/images/brochetas.jpg");
 }
 
 .card-imgs {
